@@ -41,12 +41,6 @@ a:hover {
   color: #fff;
   height: 80px;
 }
-.container {
-  max-width: 1100px;
-  margin: 0 auto;
-  overflow: auto;
-  padding: 0 40px;
-}
 .flex {
   display: flex;
   justify-content: space-between;

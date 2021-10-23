@@ -19,6 +19,6 @@ export default defineComponent({
 <style>
 .app-main {
   height: 100vh;
-  background-color: rgb(231, 250, 250);
+  /* background-color: rgb(231, 250, 250); */
 }
 </style>
