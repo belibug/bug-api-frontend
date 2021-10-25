@@ -2,7 +2,7 @@
   <div class="navbar">
     <div class="container flex">
       <h1 class="logo">
-        <router-link to="/notes">BuG Apps</router-link>
+        <router-link to="/">BuG Apps</router-link>
       </h1>
       <nav>
         <ul>
