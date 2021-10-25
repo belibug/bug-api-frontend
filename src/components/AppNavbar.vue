@@ -6,10 +6,10 @@
       </h1>
       <nav>
         <ul>
-          <li><a href="/notes">Notes</a></li>
-          <li><a href="/lasttime">Last Time</a></li>
-          <li><a href="/timetracker">Time Tracker</a></li>
-          <li><a href="/habittracker">Habit Tracker</a></li>
+          <router-link to="/notes">Notes</router-link>
+          <router-link to="/lasttime">Last Time</router-link>
+          <router-link to="/timetracker">Time Tracker</router-link>
+          <router-link to="/habittracker">Hait Tracker</router-link>
         </ul>
       </nav>
     </div>
@@ -21,10 +21,9 @@ import { defineComponent } from "vue";
 export default defineComponent({});
 </script>
 
-<style>
+<style scoped>
 h1,
 h2 {
-  /* font-weight: 300; */
   margin: 10px 0;
 }
 a {
@@ -52,5 +51,21 @@ ul {
 }
 li {
   list-style: none;
+}
+@media only screen and (max-width: 700px) {
+  .container {
+    padding: 10px;
+  }
+  h1,
+  a {
+    padding: 0;
+    margin: 0;
+  }
+  .flex {
+    justify-content: center;
+  }
+  nav {
+    display: none;
+  }
 }
 </style>
