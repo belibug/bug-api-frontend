@@ -1,5 +1,7 @@
 # bug-api-frontend
 
+THIS IS NOT THE PRODUCTION APP
+
 ## Project setup
 ```
 npm install
